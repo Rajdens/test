@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    color: var(--colorall);
+}
+:root{
+    --bgcolor: #0c0c0c;
+    --colorall: #dbdbdb;
+}
+body{
+    background: var(--bgcolor);
+}
+header{
+    padding: 15px 0 15px 0;
+    color: white;
+    background-color: #080808;
+    font-size: 35px;
+    width: 100%;
+}
+.header{
+    margin-left: 1em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    text-align: center;
+}
+.info{
+    font-size: 150%;
+    margin-top: 4%;
+}
+.not-verified{
+    color: red;
+}
+.verified{
+    color: #00ff00;
+}
+.box {
+    margin: 3% 0px 0px 29%;
+    border-radius: 1em;
+    background: linear-gradient(87deg, #060606, #080808);
+    border: 1px solid #ffffff40;
+    padding: 10px;
+    width: 40%;
+}
+
+.verify {
+    margin-top: 2%;
+    color: white;
+    background: linear-gradient(87deg, #060606, #080808);
+    border: 1px solid #ffffff40;
+    border-radius: 1em;
+    padding: 10px 1% 10px 1%;
+    font-size: 135%;
+    transition: .2s;
+}
+.verify:hover{
+    box-shadow: 0 0 9px 0px #404040;
+}
+.warning{
+    width: 50%;
+    margin: 3% 0 0 25%
+}
+.uwaga{
+    font-size: 150%;
+    font-weight: bold;
+}
+footer{
+    position:absolute;
+    text-align: right;
+    color: white;
+    background-color: #080808;
+    font-size: 15px;
+    width: 100%;
+    bottom: 0;
+}
+.footer{
+    margin-right: 1em;
+}
+
+.logo{
+    float: left;
+    margin: 5px;
+}
+.user-info{
+    font-size: 125%;
+}
+.hello{
+    padding: 20px;
+}
+.kontakt-box{
+    margin: 3% 0px 0px 39.5%;
+    border-radius: 1em;
+    background: linear-gradient(87deg, #060606, #080808);
+    border: 1px solid #ffffff40;
+    padding: 10px;
+    width: 20%;
+}
